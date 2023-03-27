@@ -162,6 +162,7 @@
   color: #303e49;
 }
 .vertical-timeline-element-content p, .vertical-timeline-element-content .vertical-timeline-element-date {
+  color : #ffffff;
   font-size: 13px;
   font-size: 0.8125rem;
   font-weight: 500;
@@ -235,7 +236,7 @@
     font-size: 1rem;
   }
   .vertical-timeline-element-content .vertical-timeline-element-date {
-    font-size: 34px;
+    font-size: 14px;
     font-size: 0.875rem;
   }
 }
