@@ -15,6 +15,11 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { FaEnvira } from "react-icons/fa";
+import { GiWorld } from "react-icons/gi";
+import { IoMdSchool } from "react-icons/io";
+
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -94,17 +99,37 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/education"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <IoMdSchool style={{ marginBottom: "2px" }} /> Education
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/international"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiWorld style={{ marginBottom: "2px" }} /> International Mobility
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/civic"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaEnvira style={{ marginBottom: "2px" }} /> Civic Engagement
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Abdelmouhaimen"
                 target="_blank"
                 className="fork-btn-inner"
               >
