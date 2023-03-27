@@ -13,7 +13,11 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        
 
+        {"\n"}
+        {"\n"}
+        {/* If the component contains gh link, it will render the below component  */}
         { props.demoLink (
         <Button variant="primary" href={props.ghLink} target="_blank">
         <BsGithub /> &nbsp;
