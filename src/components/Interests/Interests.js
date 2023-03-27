@@ -31,7 +31,7 @@ function Interests() {
 
           <Col md={4} className="project-card">
             <InterestCard
-              imgPath={sport}
+              imgPath={sports}
               isBlog={false}
               title="Sports"
               description="Since my childhood, I have been passionate about sports especially football."
