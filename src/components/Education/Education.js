@@ -10,9 +10,9 @@ import { IoMdSchool } from "react-icons/io";
 function Education() {
   return (
     <VerticalTimeline>
-    </br>
-    </br>
-    </br>
+    <br />
+    <br />
+    <br />
   <VerticalTimelineElement"
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
