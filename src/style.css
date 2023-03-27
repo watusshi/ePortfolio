@@ -323,8 +323,8 @@ html {
   padding-top: 70px !important;
   background-color: linear-gradient(
     to top right,
-    rgba(0, 48, 57, 0.9),
-    rgba(0, 27, 18, 0.85)
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.85)
   );
 }
 
