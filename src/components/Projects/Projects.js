@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import PostegreSQL from "../../Assets/Projects/PostegreSQL.png";
+import postgresql from "../../Assets/Projects/PostegreSQL.png";
 import tipe from "../../Assets/Projects/tipe.png";
 import myjobglasses from "../../Assets/Projects/myjobglasses.png";
 
@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={PostgreSQL}
+              imgPath={postgresql}
               isBlog={false}
               title="A PostgreSQL Administrator"
               description="PostgreSQL Browser is a web-based PostgreSQL database admin tool written in python using Flask, HTML, CSS, JavaScript. It is a tool that will help you view your database from Heroku and edit them directly with a more friendly interface. This project was part of my final project to validate my cs50x certification."
