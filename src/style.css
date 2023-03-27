@@ -761,3 +761,7 @@ html {
   color: whitesmoke;
   text-align: left;
 }
+
+.soon-header {
+  padding-top: 80px !important;
+}
