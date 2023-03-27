@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://main--cozy-gaufre-3e5a24.netlify.app/static/media/Abdelmouhaimen_Sarhane.6035337128a141c1540f.pdf";
+  "https://sarhane.com/static/media/Abdelmouhaimen_Sarhane.6035337128a141c1540f.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
