@@ -14,13 +14,11 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
 
-        {/* If the component contains Github link, it will render the below component  */}
-        {props.ghLink ( 
-          <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-          </Button>
-        )}
+
+        <Button variant="primary" href={props.ghLink} target="_blank">
+        <BsGithub /> &nbsp;
+        {props.isBlog ? "Blog" : "GitHub"}
+        </Button>
         {"\n"}
         {"\n"}
 
