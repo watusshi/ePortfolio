@@ -321,7 +321,7 @@ html {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  background-color: var(--section-background-color);
+  background-color: rgba(0, 8, 24, 0.904);
 }
 
 .home-about-description {
