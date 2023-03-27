@@ -35,7 +35,6 @@ function Projects() {
               isBlog={false}
               title="TIPE : Heart Rate Monitor"
               description="Supervised personal initiative project or TIPE is a common test to most entrance examinations to the Grandes Ecoles of Science. During my preparatory classes, I made a heart rate monitor as a project for my TIPE. The device measured heart rate using a technique called Photoplethysmography. I had to make the sensor using IR LED also photodiode, also I had make the electronic circuit to ensure the output contains only the alternative signal from heart pulse. Finally I did the post-processing using Arduino kit to visualise the heart rate."
-              ghLink=""
             />
           </Col>
 
@@ -44,8 +43,7 @@ function Projects() {
               imgPath={myjobglasses}
               isBlog={false}
               title="MyJobGlasses Certificate"
-              description="The certificate is a document designed by My Job Glasses to promote the approach of young people in their orientation. It attests to their ability to contact and meet mentors on the My Job Glasses mentoring tool to: find out more about a job or training | develop their professional network | expand their knowledge of an industry or company | get a professional opportunity such as an internship or work-study"
-              ghLink=""             
+              description="The certificate is a document designed by My Job Glasses to promote the approach of young people in their orientation. It attests to their ability to contact and meet mentors on the My Job Glasses mentoring tool to: find out more about a job or training | develop their professional network | expand their knowledge of an industry or company | get a professional opportunity such as an internship or work-study"           
             />
           </Col>
 
