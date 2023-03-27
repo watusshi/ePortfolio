@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(50, 0, 0, 0.582),
-    rgba(50, 0, 0, 0.904)
+    rgba(0, 16, 16, 0.582),
+    rgba(0, 8, 24, 0.904)
   );
 
   --image-gradient: linear-gradient(
@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
   
-  --imp-text-color: #3161c2;
+  --imp-text-color: #000000;
   }
   
   .purple {
