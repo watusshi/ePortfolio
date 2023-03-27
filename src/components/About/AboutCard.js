@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
+            Hi Everyone, I am <span className="purple">Abdelmouhaimen Sarhane </span>
             <br />I am first year computer science engineering student at INP-ENSEEIHT. Interested in Artificial Intelligence and data science because of the mixture of applied mathematics, modelization, data analysis and software engineering. My curiosity towards science and new technologies is growing and supports my engagement to broaden my knowledge and build my skills.
 
 ​
