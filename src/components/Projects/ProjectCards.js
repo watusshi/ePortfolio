@@ -18,7 +18,7 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
         {/* If the component contains gh link, it will render the below component  */}
-        { props.demoLink (
+        { true && props.demoLink (
         <Button variant="primary" href={props.ghLink} target="_blank">
         <BsGithub /> &nbsp;
         {props.isBlog ? "Blog" : "GitHub"}
