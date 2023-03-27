@@ -7,7 +7,7 @@ import Type from "./Type";
 function ComingSoon() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="soon-section" id="home">
         <Particle />
         <Container className="home-content">
           <Row>
