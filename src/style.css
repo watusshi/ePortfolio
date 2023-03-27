@@ -322,9 +322,9 @@ html {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
   background-color: linear-gradient(
-    to top left,
-    rgba(0, 16, 16, 0.85),
-    rgba(0, 9, 3, 0.85)
+    to top right,
+    rgba(0, 16, 19, 0.95),
+    rgba(0, 9, 6, 0.85)
   );
 }
 
