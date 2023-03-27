@@ -37,18 +37,7 @@ function Education() {
       The course is a balance between mathematics, physical sciences, computer science and industrial sciences, which ideally prepares for future engineering professions.
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2020"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoMdSchool />}
-  >
-    <h3 className="vertical-timeline-element-title">High school diploma | Mention très bien</h3>
-    <h4 className="vertical-timeline-element-subtitle">Casablanca, Morocco</h4>
-    <p>
-      Option : Science mathématiques B
-    </p>
-  </VerticalTimelineElement>
+
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
