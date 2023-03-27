@@ -43,7 +43,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  JAVA
+                  JAVA.
                 </b>
               </i>
             </p>
