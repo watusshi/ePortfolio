@@ -13,7 +13,7 @@ function Education() {
     <br />
     <br />
     <br />
-  <VerticalTimelineElement"
+  <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
