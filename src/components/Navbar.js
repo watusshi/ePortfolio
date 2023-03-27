@@ -17,6 +17,8 @@ import { CgFileDocument } from "react-icons/cg";
 import { FaEnvira } from "react-icons/fa";
 import { GiWorld } from "react-icons/gi";
 import { IoMdSchool } from "react-icons/io";
+import { MdOutlineSportsEsports } from "react-icons/md";
+
 
 
 
@@ -123,6 +125,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <FaEnvira style={{ marginBottom: "2px" }} /> Civic Engagement
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/interests"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdOutlineSportsEsports style={{ marginBottom: "2px" }} /> Sports & Interests
               </Nav.Link>
             </Nav.Item>
 
