@@ -13,10 +13,14 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
+
+        {/* If the component contains Github link, it will render the below component  */}
+        {props.ghLink ( 
+          <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+          </Button>
+        )}
         {"\n"}
         {"\n"}
 
