@@ -23,16 +23,13 @@ function ComingSoon() {
 			</nav>
 		</header>
 		<div class="content">
-			<!-- trianglify pattern container -->
 			<div class="pattern pattern--hidden"></div>
-			<!-- cards -->
 			<div class="wrapper">
 				<div class="card">
 					<div class="card__container card__container--closed">
 						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
 							<defs>
 								<clipPath id="clipPath1">
-									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
 									<circle class="clip" cx="960" cy="250" r="992"></circle>
 								</clipPath>
 							</defs>
@@ -65,7 +62,7 @@ function ComingSoon() {
 						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
 							<defs>
 								<clipPath id="clipPath2">
-									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+
 									<circle class="clip" cx="960" cy="250" r="992"></circle>
 								</clipPath>
 							</defs>
@@ -98,7 +95,6 @@ function ComingSoon() {
 						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
 							<defs>
 								<clipPath id="clipPath3">
-									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
 									<circle class="clip" cx="960" cy="250" r="992"></circle>
 								</clipPath>
 							</defs>
@@ -131,7 +127,7 @@ function ComingSoon() {
 						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
 							<defs>
 								<clipPath id="clipPath4">
-									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+
 									<circle class="clip" cx="960" cy="250" r="992"></circle>
 								</clipPath>
 							</defs>
@@ -164,7 +160,7 @@ function ComingSoon() {
 						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
 							<defs>
 								<clipPath id="clipPath5">
-									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+
 									<circle class="clip" cx="960" cy="250" r="992"></circle>
 								</clipPath>
 							</defs>
@@ -197,7 +193,7 @@ function ComingSoon() {
 						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
 							<defs>
 								<clipPath id="clipPath6">
-									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+
 									<circle class="clip" cx="960" cy="250" r="992"></circle>
 								</clipPath>
 							</defs>
