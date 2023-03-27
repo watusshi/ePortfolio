@@ -1,6 +1,8 @@
 import React from "react";
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+import VerticalTimeline from "./VerticalTimeline";
+import VerticalTimelineElement from "./VerticalTimelineElement";
+import './VerticalTimeline.css';
+import './VerticalTimelineElement.css';
 
 
 
