@@ -23,7 +23,7 @@ function ComingSoon() {
                 My Website is
                 <strong className="main-name"> under Maintenance</strong>
               </h1>
-              <h4> Check in the meantime this website for other information : https://abdosarhane.wixsite.com/welcome/engagement <h4>
+              <h4> Check in the meantime this website for other information : https://abdosarhane.wixsite.com/welcome/engagement </h4>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
