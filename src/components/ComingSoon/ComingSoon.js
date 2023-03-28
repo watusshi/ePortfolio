@@ -23,7 +23,7 @@ function ComingSoon() {
                 My Website is
                 <strong className="main-name"> under Maintenance</strong>
               </h1>
-              <br><br>
+              <br/><br/>
               <h4>  Check in the meantime this website for other information : <a href="https://abdosarhane.wixsite.com/welcome/engagement">Visit</a></h4>
 
               <div style={{ padding: 50, textAlign: "left" }}>
