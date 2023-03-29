@@ -21,7 +21,7 @@ function Civic() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <InterestCard
+            <ProjectCard
               imgPath={ideation}
               isBlog={false}
               title="Act Now for Sustainable Development @N7 Ideation Day Winners"
