@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import InterestCard from "./InterestCards";
 import Particle from "../Particle";
-import sulitest from "../../Assets/Interests/sulitest.png";
-import fresk from "../../Assets/Interests/fresk.png";
-import entreup from "../../Assets/Interests/entreup.png";
-import ideation from "../../Assets/Interests/ideation.png";
+import sulitest from "../../Assets/Civic/sulitest.png";
+import fresk from "../../Assets/Civic/fresk.png";
+import entreup from "../../Assets/Civic/entreup.png";
+import ideation from "../../Assets/Civic/ideation.png";
 
 
 function Civic() {
