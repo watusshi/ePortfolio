@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import InterestCard from "./InterestCards";
+import CivicCard from "./CivicCards";
 import Particle from "../Particle";
 import sulitest from "../../Assets/Civic/sulitest.png";
 import fresk from "../../Assets/Civic/fresk.png";
