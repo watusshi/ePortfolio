@@ -2,11 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Button from "react-bootstrap/Button";
 import postgresql from "../../Assets/Projects/PostegreSQL.png";
 import tipe from "../../Assets/Projects/tipe.png";
 import myjobglasses from "../../Assets/Projects/myjobglasses.png";
-import { BsGithub } from "react-icons/bs";
+
 
 function Projects() {
   return (
