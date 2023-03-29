@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import postgresql from "../../Assets/Projects/PostegreSQL.png";
 import tipe from "../../Assets/Projects/tipe.png";
 import myjobglasses from "../../Assets/Projects/myjobglasses.png";
+import { BsGithub } from "react-icons/bs";
 
 function Projects() {
   return (
@@ -27,6 +28,12 @@ function Projects() {
               ghLink="https://github.com/Abdelmouhaimen/browser"
               demoLink="https://spark.adobe.com/video/rv3QwkwFtNMfx"
             />
+            {"\n"}
+            {"\n"}
+            <Button variant="primary" href={props.ghLink} target="_blank">
+            <BsGithub /> &nbsp;
+            {props.isBlog ? "Blog" : "GitHub"}
+            </Button>
           </Col>
 
           <Col md={4} className="project-card">
