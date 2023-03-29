@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import Button from "react-bootstrap/Button";
 import postgresql from "../../Assets/Projects/PostegreSQL.png";
 import tipe from "../../Assets/Projects/tipe.png";
 import myjobglasses from "../../Assets/Projects/myjobglasses.png";
@@ -25,14 +26,12 @@ function Projects() {
               isBlog={false}
               title="A PostgreSQL Administrator"
               description="PostgreSQL Browser is a web-based PostgreSQL database admin tool written in python using Flask, HTML, CSS, JavaScript. It is a tool that will help you view your database from Heroku and edit them directly with a more friendly interface. This project was part of my final project to validate my cs50x certification."
-              ghLink="https://github.com/Abdelmouhaimen/browser"
               demoLink="https://spark.adobe.com/video/rv3QwkwFtNMfx"
             />
             {"\n"}
             {"\n"}
-            <Button variant="primary" href={props.ghLink} target="_blank">
-            <BsGithub /> &nbsp;
-            {props.isBlog ? "Blog" : "GitHub"}
+            <Button variant="primary" href="https://github.com/Abdelmouhaimen/browser" target="_blank">
+            <BsGithub /> &nbsp;GitHub
             </Button>
           </Col>
 
