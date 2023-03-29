@@ -14,7 +14,7 @@ function International() {
           International <strong className="purple"> Mobility </strong>
         </h1>
         <p style={{ color: "white" }}>
-        s a Moroccan student living and studying in France, I had the chance to discover different cultures and get to know and work with international students too, which is necessary in the field of computer science to work with people from different parts of the globe. That's why in addition to English, French and Arabic; I decided to choose Japanese language as my LV2 to strengthen my relations with new people
+        As a Moroccan student living and studying in France, I had the chance to discover different cultures and get to know and work with international students too, which is necessary in the field of computer science to work with people from different parts of the globe. That's why in addition to English, French and Arabic; I decided to choose Japanese language as my LV2 to strengthen my relations with new people
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
