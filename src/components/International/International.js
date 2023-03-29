@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import InternationalCard from "./InternationalCards";
+import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
 import travel from "../../Assets/International/travel.png";
 
@@ -18,7 +18,7 @@ function International() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <InternationalCard
+            <ProjectCard
               imgPath={travel}
               isBlog={false}
               title=" Travel the world"
