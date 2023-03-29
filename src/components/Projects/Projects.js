@@ -27,12 +27,8 @@ function Projects() {
               title="A PostgreSQL Administrator"
               description="PostgreSQL Browser is a web-based PostgreSQL database admin tool written in python using Flask, HTML, CSS, JavaScript. It is a tool that will help you view your database from Heroku and edit them directly with a more friendly interface. This project was part of my final project to validate my cs50x certification."
               demoLink="https://spark.adobe.com/video/rv3QwkwFtNMfx"
+              ghLink="https://github.com/Abdelmouhaimen/browser"
             />
-            {"\n"}
-            {"\n"}
-            <Button variant="primary" href="https://github.com/Abdelmouhaimen/browser" target="_blank">
-            <BsGithub /> &nbsp;GitHub
-            </Button>
           </Col>
 
           <Col md={4} className="project-card">
