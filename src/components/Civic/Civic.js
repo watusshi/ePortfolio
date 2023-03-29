@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import CivicCard from "./CivicCards";
+import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
 import sulitest from "../../Assets/Civic/sulitest.png";
 import fresk from "../../Assets/Civic/fresk.png";
@@ -30,7 +30,7 @@ function Civic() {
           </Col>
 
           <Col md={4} className="project-card">
-            <InterestCard
+            <ProjectCard
               imgPath={entreup}
               isBlog={false}
               title="Exploring Entrepreneurship: A Sensitization Day Experience"
@@ -39,7 +39,7 @@ function Civic() {
           </Col>
 
           <Col md={4} className="project-card">
-            <InterestCard
+            <ProjectCard
               imgPath={sulitest}
               isBlog={false}
               title="Sulitest"
@@ -48,7 +48,7 @@ function Civic() {
           </Col>
 
           <Col md={4} className="project-card">
-            <InterestCard
+            <ProjectCard
               imgPath={fresk}
               isBlog={false}
               title="The Climate Fresk"
