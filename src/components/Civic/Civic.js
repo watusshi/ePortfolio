@@ -14,10 +14,10 @@ function Civic() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          What Else <strong className="purple"> I do </strong>
+          Environmental <strong className="purple"> Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Being able to study at school, exercise my body and entertain myself with several activities is an important key to productivity and creativity, that is why I make sure to stay productive and enjoy my time as an engineering student
+          Green actions are happening in this section ...
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
