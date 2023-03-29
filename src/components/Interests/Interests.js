@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import InterestCard from "./InterestCards";
+import ProjectCard from "./Projects/ProjectCards";
 import Particle from "../Particle";
 import gaming from "../../Assets/Interests/gaming.png";
 import sports from "../../Assets/Interests/sports.png";
@@ -21,7 +21,7 @@ function Interests() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <InterestCard
+            <ProjectCard
               imgPath={gaming}
               isBlog={false}
               title="Video Games"
@@ -30,7 +30,7 @@ function Interests() {
           </Col>
 
           <Col md={4} className="project-card">
-            <InterestCard
+            <ProjectCard
               imgPath={sports}
               isBlog={false}
               title="Sports"
@@ -39,7 +39,7 @@ function Interests() {
           </Col>
 
           <Col md={4} className="project-card">
-            <InterestCard
+            <ProjectCard
               imgPath={coding}
               isBlog={false}
               title="Coding"
@@ -48,7 +48,7 @@ function Interests() {
           </Col>
           
           <Col md={4} className="project-card">
-            <InterestCard
+            <ProjectCard
               imgPath={science}
               isBlog={false}
               title="Science"
