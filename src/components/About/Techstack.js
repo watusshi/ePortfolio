@@ -7,11 +7,11 @@ import {
   DiPostgresql,
   DiPython,
   DiGit,
-  DiJava
+  DiJava,
+  DiDjango
 } from "react-icons/di";
 import {
   SiScipy,
-  SiFirebase,
   SiNextdotjs,
 } from "react-icons/si";
 
