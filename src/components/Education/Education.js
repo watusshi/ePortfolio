@@ -13,9 +13,9 @@ function Education() {
     <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(17, 75, 122)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(17, 75, 122)' }}
     date="2023 June - 2023 July"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(17, 75, 122)', color: '#fff' }}
     icon={<IoMdBriefcase />}
   >
     <h3 className="vertical-timeline-element-title">Intern - Energy Consumption in Matrix Computations Using Compressed Data</h3>
