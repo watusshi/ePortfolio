@@ -5,6 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 
+
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
@@ -26,7 +27,7 @@ function ProjectCards(props) {
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
-        {!props.isBlog && props.demoLink && (
+        {props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
@@ -35,6 +36,13 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+
+        {props.file && (
+          <Button variant="primary" href={props.file} target="_blank">
+            <CgWebsite /> &nbsp;
+            {props.fileText}
           </Button>
         )}
       </Card.Body>
