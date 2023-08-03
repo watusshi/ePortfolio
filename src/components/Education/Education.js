@@ -10,6 +10,22 @@ import { IoMdSchool } from "react-icons/io";
 function Education() {
   return (
     <VerticalTimeline>
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="2023 June - 2023 July"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<IoMdSchool />}
+  >
+    <h3 className="vertical-timeline-element-title">Intern - Energy Consumption in Matrix Computations Using Compressed Data</h3>
+    <h4 className="vertical-timeline-element-subtitle">ENAC, Toulouse, France</h4>
+    <p>
+      A 6-week internship on "Evaluating Energy Consumption in Matrix Computations Using Compressed Data." 💻📚 During this journey, I explored advanced scientific computing techniques and sustainable solutions for handling massive data sets.
+    </p>
+  </VerticalTimelineElement>
+
+      
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
