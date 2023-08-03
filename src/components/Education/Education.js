@@ -3,7 +3,7 @@ import VerticalTimeline from "./VerticalTimeline";
 import VerticalTimelineElement from "./VerticalTimelineElement";
 import './VerticalTimeline.css';
 import './VerticalTimelineElement.css';
-import { IoMdSchool } from "react-icons/io";
+import { IoMdSchool,IoMdBriefcase } from "react-icons/io";
 
 
 
@@ -16,7 +16,7 @@ function Education() {
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2023 June - 2023 July"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoMdSchool />}
+    icon={<IoMdBriefcase />}
   >
     <h3 className="vertical-timeline-element-title">Intern - Energy Consumption in Matrix Computations Using Compressed Data</h3>
     <h4 className="vertical-timeline-element-subtitle">ENAC, Toulouse, France</h4>
