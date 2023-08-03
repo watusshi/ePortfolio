@@ -12,7 +12,7 @@ function Education() {
     <VerticalTimeline>
     <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: 'rgb(17, 75, 122)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2023 June - 2023 July"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
