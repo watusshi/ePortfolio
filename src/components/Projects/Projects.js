@@ -10,6 +10,8 @@ import manuel from "../../Assets/Projects/Manuel_Utilisateur.pdf";
 import mjgcertificate from "../../Assets/Projects/myjobglasses_orientation_certificate.pdf";
 import pppPdf from "../../Assets/Projects/ppp.pdf";
 import pppPic from "../../Assets/Projects/ppp.png";
+import coverletter from "../../Assets/Projects/coverletter.pdf";
+import coverletterPic from "../../Assets/Projects/coverletter.png";
 
 function Projects() {
   return (
@@ -52,6 +54,16 @@ function Projects() {
             />
           </Col>
 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={coverletterPic}
+              file={coverletter}
+              fileText="Cover Letter"
+              title="Cover Letter"
+              description="This cover letter is structured to highlight my expertise and interest in AI and Computer Vision."
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
