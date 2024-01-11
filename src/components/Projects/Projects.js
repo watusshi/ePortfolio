@@ -11,7 +11,7 @@ import mjgcertificate from "../../Assets/Projects/myjobglasses_orientation_certi
 import pppPdf from "../../Assets/Projects/ppp.pdf";
 import pppPic from "../../Assets/Projects/ppp.png";
 import coverletter from "../../Assets/Projects/coverletter.pdf";
-import coverletterPic from "../../Assets/Projects/coverletter.png";
+import coverletterPic from "../../Assets/Projects/coverletter.jpg";
 
 function Projects() {
   return (
