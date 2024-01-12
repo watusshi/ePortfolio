@@ -82,7 +82,7 @@ const VerticalTimelineElement = ({
             {/* Download Button - Conditionally rendered */}
             {file && (
               <a href={file} download style={{ textDecoration: 'none' }}>
-                <button type="button">
+                <button type="button" className="download-button">
                   {fileText}
                 </button>
               </a>
