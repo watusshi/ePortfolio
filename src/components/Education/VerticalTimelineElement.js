@@ -24,6 +24,8 @@ const VerticalTimelineElement = ({
     triggerOnce: true,
   },
   visible = false,
+  fileText = 'Download',
+  file = '',
 }) => (
   <InView {...intersectionObserverProps}>
     {({ inView, ref }) => (
@@ -77,6 +79,14 @@ const VerticalTimelineElement = ({
             >
               {date}
             </span>
+            {/* Download Button - Conditionally rendered */}
+            {file && (
+              <a href={file} download style={{ textDecoration: 'none' }}>
+                <button type="button">
+                  {fileText}
+                </button>
+              </a>
+            )}
           </div>
         </React.Fragment>
       </div>
@@ -110,6 +120,8 @@ VerticalTimelineElement.propTypes = {
     threshold: PropTypes.number,
     triggerOnce: PropTypes.bool,
   }),
+  fileText: PropTypes.string,
+  file: PropTypes.string,
 };
 
 export default VerticalTimelineElement;
