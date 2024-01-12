@@ -18,7 +18,7 @@ function Education() {
     date="2023 June - 2023 July"
     iconStyle={{ background: 'rgb(17, 75, 122)', color: '#fff' }}
     icon={<IoMdBriefcase />}
-    file=rapportEnac
+    file={rapportEnac}
     fileText="Rapport de Stage"
   >
     <h3 className="vertical-timeline-element-title">Intern - Energy Consumption in Matrix Computations Using Compressed Data</h3>
