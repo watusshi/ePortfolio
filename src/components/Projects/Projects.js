@@ -8,8 +8,6 @@ import myjobglasses from "../../Assets/Projects/myjobglasses.png";
 import reveasy from "../../Assets/Projects/reveasy.png";
 import manuel from "../../Assets/Projects/Manuel_Utilisateur.pdf";
 import mjgcertificate from "../../Assets/Projects/myjobglasses_orientation_certificate.pdf";
-import pppPdf from "../../Assets/Projects/ppp.pdf";
-import pppPic from "../../Assets/Projects/ppp.png";
 import coverletter from "../../Assets/Projects/coverletter.pdf";
 import coverletterPic from "../../Assets/Projects/coverletter.jpg";
 
@@ -65,15 +63,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pppPic}
-              title="My Personal Professional Project"
-              description="My Personal Professional Project is an academic or professional endeavor where I focus on developing and realizing a project that aligns with my career aspirations and interests. It involves conducting detailed research, strategic planning, and executing practical steps in a field I am deeply passionate about. This project is a platform for me to showcase my skills, innovate, and make meaningful contributions to my chosen area, fostering both my professional and personal growth. The PPP stands as a testament to my commitment and dedication to achieving a significant milestone in my professional journey."           
-              file={pppPdf}
-              fileText="PPP"
-            />
-          </Col>
 
                 
           <Col md={4} className="project-card">
