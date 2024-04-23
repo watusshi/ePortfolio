@@ -26,14 +26,14 @@ function AboutCard() {
               <ImPointRight /> Coding
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling
             </li>
           </ul>
 
           <p style={{ color: "rgb(96, 136, 224)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "The best error message is the one that never shows up."{" "}
           </p>
-          <footer className="blockquote-footer">Abdelmouhaimen</footer>
+          <footer className="blockquote-footer">Thomas Fuchs</footer>
         </blockquote>
       </Card.Body>
     </Card>
