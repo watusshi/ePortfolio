@@ -134,7 +134,7 @@ function NavBar() {
                 to="/interests"
                 onClick={() => updateExpanded(false)}
               >
-                <MdOutlineSportsEsports style={{ marginBottom: "2px" }} /> Sports & Interests
+                <MdOutlineSportsEsports style={{ marginBottom: "2px" }} /> Interests
               </Nav.Link>
             </Nav.Item>
 
