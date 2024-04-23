@@ -14,7 +14,11 @@ function International() {
           International <strong className="purple"> Mobility </strong>
         </h1>
         <p style={{ color: "white" }}>
-        As a Moroccan student living and studying in France, I had the chance to discover different cultures and get to know and work with international students too, which is necessary in the field of computer science to work with people from different parts of the globe. That's why in addition to English, French and Arabic; I decided to choose Japanese language as my LV2 to strengthen my relations with new people
+        As an immigrant from Vietnam, I bring a rich tapestry of cultural understanding and a keen ability to adapt swiftly to new environments. 
+        Having traversed different cultures, I possess a profound appreciation for diversity and a knack for bridging gaps between people. 
+        My passion for computers and technology fuels my drive to innovate and explore the ever-evolving digital landscape. 
+        Fluent in English, Vietnamese, and Chinese, I seamlessly navigate linguistic barriers, fostering connections and broadening my horizons. 
+        My journey reflects resilience, curiosity, and a relentless pursuit of growth in both personal and professional spheres.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
