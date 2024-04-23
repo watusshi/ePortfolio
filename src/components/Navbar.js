@@ -104,7 +104,7 @@ function NavBar() {
                 to="/education"
                 onClick={() => updateExpanded(false)}
               >
-                <IoMdSchool style={{ marginBottom: "2px" }} /> Career & Education
+                <IoMdSchool style={{ marginBottom: "2px" }} /> Career
               </Nav.Link>
             </Nav.Item>
 
