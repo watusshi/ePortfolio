@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
 import travel from "../../Assets/International/travel.jpg";
+import travel from "../../Assets/International/europe.jpg";
 
 
 function International() {
@@ -26,7 +27,7 @@ function International() {
             <ProjectCard
               imgPath={travel}
               isBlog={false}
-              title=" Travel the world"
+              title="Travel the world"
               description="I've embarked on exhilarating journeys across continents, enriching my life with diverse experiences and vibrant cultures. 
               From the picturesque streets of France to the charming landscapes of Denmark, from the bustling cities of China to the serene beauty of Thailand's beaches, each destination has left an indelible mark on my soul. 
               With my family as steadfast companions, we've traversed through the historic alleys of Germany, cruised along the canals of the Netherlands, and wandered through the enchanting streets of Prague. 
@@ -36,9 +37,9 @@ function International() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={travel}
+              imgPath={europe}
               isBlog={false}
-              title=" Travel the world"
+              title="Mission in Europe"
               description="Embarking on a transformative journey across Europe, my mission transcends mere tourism; it is a quest to immerse myself deeply in the rich tapestry of cultures that grace this continent. 
               From savoring the culinary delights of France to delving into the architectural marvels of Germany, each encounter is a lesson in history, tradition, and human connection. 
               Venturing through the cobblestone streets of Prague, I absorb the echoes of centuries past, while in Denmark, I embrace the warmth of Scandinavian hospitality. 
