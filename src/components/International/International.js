@@ -26,7 +26,10 @@ function International() {
               imgPath={travel}
               isBlog={false}
               title=" Travel the world"
-              description="I have the intent to visit all countries of the world and discover new things, and to be able to express with others differently. I haven't traveled yet to many countries, I have been in Morocco, France, Spain and Portugal, I really liked those experiences."           
+              description="I've embarked on exhilarating journeys across continents, enriching my life with diverse experiences and vibrant cultures. 
+              From the picturesque streets of France to the charming landscapes of Denmark, from the bustling cities of China to the serene beauty of Thailand's beaches, each destination has left an indelible mark on my soul. 
+              With my family as steadfast companions, we've traversed through the historic alleys of Germany, cruised along the canals of the Netherlands, and wandered through the enchanting streets of Prague. 
+              Our adventures have fostered deep bonds and created cherished memories, weaving a tapestry of shared experiences that transcend borders and time. With each trip, I've embraced the thrill of discovery, immersing myself in new cultures and forging connections that endure beyond the confines of geography."           
             />
           </Col>
         </Row>
