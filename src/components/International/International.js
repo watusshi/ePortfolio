@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import Particle from "../Particle";
-import travel from "../../Assets/International/travel.png";
+import travel from "../../Assets/International/travel.jpg";
 
 
 function International() {
