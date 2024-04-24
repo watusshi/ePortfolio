@@ -21,6 +21,7 @@ function International() {
         My journey reflects resilience, curiosity, and a relentless pursuit of growth in both personal and professional spheres.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={travel}
@@ -32,6 +33,20 @@ function International() {
               Our adventures have fostered deep bonds and created cherished memories, weaving a tapestry of shared experiences that transcend borders and time. With each trip, I've embraced the thrill of discovery, immersing myself in new cultures and forging connections that endure beyond the confines of geography."           
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={travel}
+              isBlog={false}
+              title=" Travel the world"
+              description="Embarking on a transformative journey across Europe, my mission transcends mere tourism; it is a quest to immerse myself deeply in the rich tapestry of cultures that grace this continent. 
+              From savoring the culinary delights of France to delving into the architectural marvels of Germany, each encounter is a lesson in history, tradition, and human connection. 
+              Venturing through the cobblestone streets of Prague, I absorb the echoes of centuries past, while in Denmark, I embrace the warmth of Scandinavian hospitality. 
+              Amidst the picturesque landscapes of the Netherlands and the artistic allure of Belgium, I find inspiration in every corner. 
+              As I navigate this mosaic of cultures, my spirit is ignited with curiosity and reverence, seeking not only to understand but to embrace the diverse threads that weave together the fabric of Europe's identity."           
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
