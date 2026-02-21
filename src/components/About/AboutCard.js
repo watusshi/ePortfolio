@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Thai Lai </span>
-            <br />Greetings! My name is Thai Lai, an Information Technology student at the University of Texas at Arlington, due to graduate May 2025. 
+            <br />Greetings! My name is Thai Lai, an Information Technology student at the University of Texas at Arlington, due to graduate May 2028. 
 
 
             <br />
