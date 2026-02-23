@@ -15,12 +15,7 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { FaEnvira } from "react-icons/fa";
-import { GiWorld } from "react-icons/gi";
-import { IoMdSchool } from "react-icons/io";
 import { MdOutlineSportsEsports } from "react-icons/md";
-
-
-
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -95,26 +90,6 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/education"
-                onClick={() => updateExpanded(false)}
-              >
-                <IoMdSchool style={{ marginBottom: "2px" }} /> Career
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/international"
-                onClick={() => updateExpanded(false)}
-              >
-                <GiWorld style={{ marginBottom: "2px" }} /> Mobility
               </Nav.Link>
             </Nav.Item>
 
